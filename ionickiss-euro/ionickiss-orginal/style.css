@@ -1,0 +1,984 @@
+/*TODO:
+   1. Strona main res
+   2. Strona Secondary 4/2/1
+   3. Code review    */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.ionickiss-original {
+    background-color: white;
+    font-family: "Mulish", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.ik-container {
+    height: 100vh;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ik-content {
+
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ik-info-original {
+    width: 100%;
+
+    display: flex;
+}
+
+.ik-info-header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+
+}
+
+.ik-new {
+    color: #C3002F;
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.ik-logo-text {
+    color: #231F20;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
+}
+
+.ik-note-text {
+    color: #58595B;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.ik-mid-info {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img.lazy {
+
+}
+
+
+.ik-img-original {
+    width: 100px;
+}
+
+.ik-wrap-text {
+    margin-left: 2em;
+
+}
+
+.ik-wrap-text h2 {
+    margin-top: 1em;
+    font-size: 1.5em !important;
+    font-weight: 800 !important;
+}
+
+.ik-wrap-text p {
+    font-size: 1.25em !important;
+    font-weight: 400 !important;
+}
+
+
+.ik-text-info {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ik-text-info p {
+    font-size: 1.25em !important;
+    color: #58595B;
+}
+
+.ik-manual {
+    width: 68px;
+    height: 68px;
+    background-color: #A7A9AC;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.ik-m-text-manual {
+    margin-right: 10em;
+}
+
+.ik-m-manual {
+
+}
+
+.ik-circle-manual p {
+    margin: 30px 15px 0 0;
+}
+
+.ik-circle-manual {
+    display: none;
+}
+
+.ik-japan {
+    width: 50px;
+    height: 50px;
+    background-color: #C3002F;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.ik-circle-japan {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.ik-circle-japan p {
+
+    color: #C3002F;
+}
+
+.ik-ionic {
+    width: 45px;
+    height: 45px;
+    background-color: #58595B;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65em;
+    font-weight: 800;
+}
+
+.ik-circle-ionic {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.ik-circle-ionic p {
+
+    color: #58595B;
+
+}
+
+/*====================================================================================================================*/
+/*================================================SECTION=SECONDARY===================================================*/
+/*====================================================================================================================*/
+.ik-article {
+    text-align: center;
+    max-width: 230px;
+
+}
+
+.ik-article-photo {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.ik-article-photo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.ik-article-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.875em;
+    margin: 10px auto;
+}
+
+.ik-article-text {
+    color: #231F20;
+    padding-bottom: 1em;
+}
+
+.ik-secondary-section {
+    margin: 0 auto;
+    height: auto;
+}
+
+.ik-title {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.ik-title span {
+    color: #C3002F;
+}
+
+.ik-mid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ik-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ik-title {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.ik-content-secondary {
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*====================================================================================================================*/
+/*===================================================SECTION=THIRD====================================================*/
+/*====================================================================================================================*/
+
+.ik-third-section {
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.ik-third-content {
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ik-points {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.ik-points p {
+    margin: 1.25em 1.25em;
+}
+
+.ik-points p span {
+    font-weight: 600;
+
+}
+
+.ik-numbers {
+    color: #C3002F;
+    font-weight: 600;
+}
+
+.ik-brush-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ik-brush {
+    width: 100%;
+}
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+
+
+@media (min-width: 960px) and (max-width: 1229px) {
+
+
+    .ik-container {
+        width: 960px;
+        background-color: #fff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .ik-content {
+        height: 100vh;
+        background-color: #ffffff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .ik-info-original {
+        width: 680px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+    }
+
+    .ik-info-header {
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .ik-new {
+        width: 280px;
+        color: #C3002F;
+        font-size: 0.65em;
+        text-align: left;
+    }
+
+    .ik-logo-text {
+        color: #231F20;
+        font-size: 2em;
+        line-height: 25px;
+    }
+
+    .ik-note-text {
+        color: #58595B;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .ik-mid-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.lazy {
+        width: auto;
+        max-width: 100%;
+    }
+
+    img.lazy.ik-img-original {
+        width: 130px;
+        margin: 0 auto;
+
+    }
+
+    .ik-img-original {
+        animation: float 4s ease-out infinite;
+    }
+
+    @keyframes float {
+        50% {
+            transform: translate(0, 20px);
+        }
+    }
+
+    .ik-shadow {
+        animation: shrink 4s ease-out infinite;
+        height: 5px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+
+    @keyframes shrink {
+        0% {
+            width: 60%;
+            margin: 0 2%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        }
+        50% {
+            width: 40%;
+            margin: 0 18%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+        }
+        100% {
+            width: 60%;
+            margin: 0 2%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+
+    .ik-wrap-text {
+        margin-left: 2em;
+
+    }
+
+    .ik-wrap-text h2 {
+        margin-top: 1em;
+        font-size: 1.5em !important;
+        font-weight: 800 !important;
+    }
+
+    .ik-wrap-text p {
+        font-size: 1.25em !important;
+        font-weight: 400 !important;
+    }
+
+
+    .ik-text-info {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+
+    }
+
+    .ik-text-info p {
+        font-size: 1.125em !important;
+        color: #58595B;
+        width: 170px;
+    }
+
+
+    .ik-circle-manual p {
+        margin: 30px 0 0 0;
+        width: 210px;
+    }
+
+    .ik-circle-manual {
+        display: flex;
+        align-items: flex-end;
+        height: 300px;
+        width: 210px;
+        position: relative;
+    }
+
+
+    .ik-circle-manual:after {
+        content: "";
+        height: 22px;
+        width: 22px;
+        border-radius: 50%;
+        background-color: #E0E1E2;
+        position: absolute;
+        top: 130px;
+        left: 120px;
+    }
+
+    .ik-m-manual {
+        display: none;
+    }
+
+    .ik-circle-japan {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+
+    .ik-circle-japan:after {
+        content: "";
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: #9F0228;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .ik-circle-japan p {
+        margin: 10px 0 10px 0;
+        color: #C3002F;
+    }
+
+
+    .ik-circle-ionic {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    .ik-circle-ionic:after {
+        content: "";
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: #A7A9AC;
+        position: absolute;
+        top: 50px;
+        left: 47px;
+    }
+
+    .ik-circle-ionic p {
+        margin-top: 30px;
+        margin-bottom: 150px;
+        margin-left: 0;
+        color: #58595B;
+    }
+
+    /*====================================================================================================================*/
+    /*===============================================SECTION=SECONDARY====================================================*/
+    /*====================================================================================================================*/
+    .ik-article {
+        margin: 0 25px;
+    }
+
+    .ik-articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ik-info-headers {
+        width: 680px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .ik-title {
+        margin-top: 2em;
+    }
+
+    .ik-mid-container {
+        height: 110vh;
+        width: 960px;
+    }
+
+    .ik-article-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ik-article-2-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*====================================================================================================================*/
+    /*===============================================SECTION=THIRD========================================================*/
+    /*====================================================================================================================*/
+    .ik-brush-container {
+        height: 100vh;
+        width: 960px;
+    }
+
+    .ik-info-brush {
+        width: 680px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+
+
+@media (min-width: 1230px) {
+
+
+    .ik-container {
+        width: 1200px;
+        background-color: #fff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .ik-content {
+        width: 920px;
+        height: 100vh;
+        background-color: #ffffff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ik-info-original {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .ik-info-header {
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .ik-new {
+        color: #C3002F;
+        font-size: 0.75em;
+        width: 280px;
+        text-align: left;
+        line-height: 0;
+    }
+
+    .ik-logo-text {
+        color: #231F20;
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .ik-note-text {
+        color: #58595B;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .ik-mid-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.lazy {
+        width: auto;
+        max-width: 100%;
+    }
+
+    img.lazy.ik-img-original {
+        width: 130px;
+        margin: 0 auto;
+    }
+
+
+    .ik-img-original {
+        animation: float 4s ease-out infinite;
+    }
+
+    @keyframes float {
+        50% {
+            transform: translate(0, 20px);
+        }
+    }
+
+    .ik-shadow {
+        animation: shrink 4s ease-out infinite;
+        height: 5px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: transparent;
+    }
+
+    @keyframes shrink {
+        0% {
+            width: 60%;
+            margin: 0 2%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        }
+        50% {
+            width: 40%;
+            margin: 0 18%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+        }
+        100% {
+            width: 60%;
+            margin: 0 2%;
+            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .ik-wrap-text {
+        margin-left: 2em;
+
+    }
+
+    .ik-wrap-text h2 {
+        margin-top: 1em;
+        font-size: 1.5em !important;
+        font-weight: 800 !important;
+    }
+
+    .ik-wrap-text p {
+        font-size: 1.25em !important;
+        font-weight: 400 !important;
+    }
+
+
+    .ik-text-info {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+
+    }
+
+    .ik-text-info p {
+        font-size: 1.25em !important;
+        color: #58595B;
+    }
+
+
+    .ik-circle-manual p {
+        margin: 30px 15px 0 0;
+    }
+
+    .ik-circle-manual {
+        display: flex;
+        align-items: flex-end;
+        height: 300px;
+        position: relative;
+    }
+
+    .ik-circle-manual:after {
+        content: "";
+        height: 22px;
+        width: 22px;
+        border-radius: 50%;
+        background-color: #E0E1E2;
+        position: absolute;
+        top: 130px;
+        left: 160px;
+    }
+
+    .ik-m-manual {
+        display: none;
+    }
+
+    .ik-circle-japan {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    .ik-circle-japan:after {
+        content: "";
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: #9F0228;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    .ik-circle-japan p {
+        margin: 10px 0 10px 52px;
+        color: #C3002F;
+    }
+
+
+    .ik-circle-ionic {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    .ik-circle-ionic:after {
+        content: "";
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: #A7A9AC;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    .ik-circle-ionic p {
+        margin-top: 30px;
+        margin-bottom: 150px;
+        margin-left: 20px;
+        color: #58595B;
+
+    }
+
+
+    /* Section 2  */
+    .ik-secondary-section {
+        margin: 0 auto;
+        height: 80vh;
+    }
+
+    .ik-title {
+        font-size: 2em;
+        font-weight: 700;
+        margin: 5em auto 0;
+    }
+
+    .ik-title span {
+        color: #C3002F;
+    }
+
+    .ik-mid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ik-articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5em;
+    }
+
+    .ik-article-2,
+    .ik-article-2-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ik-article-text {
+        padding-bottom: 5em;
+    }
+
+
+
+    /* Section 3  */
+    .ik-brush-container {
+        height: 100vh;
+        width: 1200px;
+
+    }
+
+    .ik-info-brush {
+        width: 920px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        height: 100%;
+
+    }
+}
+
+
+

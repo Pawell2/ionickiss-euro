@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Mulish-300.eot'); /* IE9 */
+  src: url('../fonts/Mulish-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-300.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-300.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-300.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Mulish-Regular.eot'); /* IE9 */
+  src: url('../fonts/Mulish-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-Regular.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-Regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-Regular.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/Mulish-500.eot'); /* IE9 */
+  src: url('../fonts/Mulish-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-500.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-500.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-500.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Mulish-600.eot'); /* IE9 */
+  src: url('../fonts/Mulish-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-600.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-600.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-600.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Mulish-700.eot'); /* IE9 */
+  src: url('../fonts/Mulish-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-700.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-700.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-700.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/Mulish-800.eot'); /* IE9 */
+  src: url('../fonts/Mulish-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Mulish-800.woff2') format('woff2'), /* Modern Browsers */
+    url('../fonts/Mulish-800.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Mulish-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Mulish-800.svg#Mulish') format('svg'); /* Legacy iOS */
+}
