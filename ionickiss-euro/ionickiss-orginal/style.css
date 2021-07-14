@@ -1,7 +1,8 @@
 /*TODO:
    1. Main page res
    2. Code review
-   3. Section 4   */
+   3. Section 4
+   4. wymyslic nazwe sekcji 4 */
 
 
 * {
@@ -32,7 +33,6 @@
 }
 
 .ik-content {
-
     background-color: #ffffff;
     margin: 0 auto;
     display: flex;
@@ -41,11 +41,7 @@
 }
 
 
-.ik-info-original {
-    width: 100%;
 
-    display: flex;
-}
 
 .ik-info-header {
 
@@ -224,7 +220,7 @@ img.lazy {
     display: block;
 }
 
-.ik-article-photo-img {
+.ik-article-img {
     width: 100%;
     height: 100%;
 }
@@ -280,6 +276,7 @@ img.lazy {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 /*====================================================================================================================*/
@@ -288,8 +285,9 @@ img.lazy {
 
 .ik-third-section {
     margin: 0 auto;
-    height: 100vh;
+    height: 120vh;
 }
+
 
 .ik-third-content {
     background-color: #ffffff;
@@ -298,15 +296,17 @@ img.lazy {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .ik-points {
     font-size: 1.125em;
     font-weight: 300;
+
 }
 
 .ik-points p {
-    margin: 1.25em 1.25em;
+    margin: 1.5em 1.25em;
 }
 
 .ik-points p span {
@@ -329,6 +329,74 @@ img.lazy {
     width: 100%;
 }
 
+
+/*====================================================================================================================*/
+/*===================================================SECTION=FOURTH====================================================*/
+/*====================================================================================================================*/
+
+.ik-fourth-section {
+    margin: 0 auto;
+}
+
+.ik-fourth-content {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ik-promo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ik-title-fix{
+    margin: 1em;
+}
+.ik-promo-photo {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 843px;
+}
+
+.ik-promo-photo img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 843px;
+}
+
+.ik-promo {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.ik-promos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ik-promo-title {
+    font-size: 1.25em;
+    color: #707070;
+    font-weight: 700;
+    text-align: center;
+        margin: 1.25em 0.25em;
+}
+.ik-promo-text{
+    font-weight: normal;
+    color: #707070;
+    line-height: 25px;
+}
 /*====================================================================================================================*/
 /*====================================================================================================================*/
 /*====================================================================================================================*/
@@ -394,14 +462,6 @@ img.lazy {
 
     }
 
-    .ik-info-original {
-        width: 680px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-
-    }
 
     .ik-info-header {
         width: 300px;
@@ -614,6 +674,7 @@ img.lazy {
         margin: 0 auto;
         flex-direction: column;
         height: 100%;
+
     }
 
     .ik-title {
@@ -654,12 +715,15 @@ img.lazy {
         flex-direction: column;
         height: 100%;
     }
+    .ik-fourth-content {
+        width: 680px;
+    }
+    .ik-third-section {
+        height: auto;
+    }
 }
 
 
-/*====================================================================================================================*/
-/*====================================================================================================================*/
-/*====================================================================================================================*/
 /*====================================================================================================================*/
 /*====================================================================================================================*/
 /*====================================================================================================================*/
@@ -719,13 +783,6 @@ img.lazy {
         height: 100vh;
         background-color: #ffffff;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ik-info-original {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -962,10 +1019,9 @@ img.lazy {
     }
 
 
-
     /* Section 3  */
     .ik-brush-container {
-        height: 100vh;
+        height: 90vh;
         width: 1200px;
 
     }
@@ -977,6 +1033,27 @@ img.lazy {
         flex-direction: column;
         height: 100%;
 
+    }
+    /* Section 4  */
+
+    .ik-promos {
+        flex-direction: row;
+    }
+    .ik-promo {
+        margin: 0 6em;
+    }
+    .ik-fourth-content {
+        width: 920px;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ik-promo-title {
+        margin: 1.25em 0;
+    }
+    .ik-title-fix {
+        margin: 0 0 1em 0;
     }
 }
 
