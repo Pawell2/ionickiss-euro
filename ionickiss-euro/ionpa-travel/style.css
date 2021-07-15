@@ -11,7 +11,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+.lazy {
+    width: auto;
+    max-width: 100%;
+}
 .ik-t-container {
     height: 100vh;
     background-color: #fff;
@@ -129,9 +132,8 @@
 
 
 .ik-t-img-original {
-    width: 130px;
+    width: 170px;
 }
-
 
 .ik-t-img-original {
     animation: float 4s ease-out infinite;
@@ -155,17 +157,17 @@
     0% {
         width: 60%;
         margin: 0 2%;
-        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
     50% {
         width: 40%;
         margin: 0 18%;
-        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.2);
     }
     100% {
         width: 60%;
         margin: 0 2%;
-        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -236,6 +238,14 @@
     margin-top: 15px;
 }
 
+.ik-t-shadow {
+    height: 5px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 25px 15px 10px rgba(0, 0, 0, 0.2);
+}
+
 .ik-t-circle-japan {
     display: flex;
     align-items: flex-start;
@@ -270,9 +280,7 @@
 }
 
 .ik-t-circle-ionic p {
-
     color: #58595B;
-
 }
 
 /*====================================================================================================================*/
@@ -281,6 +289,7 @@
 .ik-t-article {
     text-align: center;
     max-width: 230px;
+    margin-top: 3em;
 }
 .ik-t-article-fix {
     padding-bottom: 1.4em;
@@ -348,6 +357,34 @@
     justify-content: center;
     align-items: center;
 
+}
+/*====================================================================================================================*/
+/*===================================================SECTION=PLUS====================================================*/
+/*====================================================================================================================*/
+.ik-t-plus-section {
+    margin: 0 auto;
+    height: 165vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ik-t-plus div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 680px;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: justify;
+    margin: 2em 2em;
+    color: #707070;
+}
+
+
+.ik-t-plus div img {
+    margin: 4em 0;
 }
 
 /*====================================================================================================================*/
@@ -579,52 +616,19 @@
         flex-direction: column;
     }
 
-    img.lazy {
-        width: auto;
-        max-width: 100%;
-    }
 
-    img.lazy.ik-t-img-original {
-        width: 150px;
+    .ik-t-img-original {
+        width: 220px;
         margin: 0 auto;
 
     }
 
-    .ik-t-img-original {
-        animation: float 4s ease-out infinite;
-    }
-
-    @keyframes float {
-        50% {
-            transform: translate(0, 20px);
-        }
-    }
-
     .ik-t-shadow {
-        animation: shrink 4s ease-out infinite;
         height: 5px;
-        width: 10px;
+        width: 110px;
         border-radius: 50%;
         background-color: transparent;
-        margin-top: 1em;
-    }
-
-    @keyframes shrink {
-        0% {
-            width: 60%;
-            margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
-        }
-        50% {
-            width: 40%;
-            margin: 0 18%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
-        }
-        100% {
-            width: 60%;
-            margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
-        }
+        box-shadow: 0 25px 15px 10px rgba(0, 0, 0, 0.2);
     }
 
 
@@ -785,6 +789,12 @@
         justify-content: center;
         align-items: center;
     }
+    /*====================================================================================================================*/
+    /*===============================================SECTION=PLUS========================================================*/
+    /*====================================================================================================================*/
+    .ik-t-plus div {
+        max-width: 680px;
+    }
 
     /*====================================================================================================================*/
     /*===============================================SECTION=THIRD========================================================*/
@@ -920,52 +930,24 @@
         flex-direction: column;
     }
 
-    img.lazy {
-        width: auto;
-        max-width: 100%;
-    }
 
-    img.lazy.ik-t-img-original {
-        width: 160px;
+
+    .ik-t-img-original {
+        width: 250px;
         margin: 0 auto;
     }
 
 
-    .ik-t-img-original {
-        animation: float 4s ease-out infinite;
-    }
 
-    @keyframes float {
-        50% {
-            transform: translate(0, 20px);
-        }
-    }
 
     .ik-t-shadow {
-        animation: shrink 4s ease-out infinite;
         height: 5px;
-        width: 10px;
+        width: 120px;
         border-radius: 50%;
         background-color: transparent;
+        box-shadow: 0 25px 15px 10px rgba(0, 0, 0, 0.2);
     }
 
-    @keyframes shrink {
-        0% {
-            width: 60%;
-            margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
-        }
-        50% {
-            width: 40%;
-            margin: 0 18%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
-        }
-        100% {
-            width: 60%;
-            margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
-        }
-    }
 
     .ik-t-wrap-text {
         margin-left: 2em;
@@ -1117,12 +1099,28 @@
         padding-bottom: 5em;
     }
 
+    /* Section plus  */
+    .ik-t-plus-section {
+        height: 130vh;
+    }
+    .ik-t-plus-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ik-t-plus div {
+        margin: 2em 0;
+    }
+
+    .ik-t-plus div img {
+        margin: 4em 0;
+    }
 
     /* Section 3  */
     .ik-t-brush-container {
         height: 90vh;
         width: 1200px;
-
     }
 
     .ik-t-info-brush {
