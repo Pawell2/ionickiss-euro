@@ -1,16 +1,8 @@
-/*TODO:
-   1. Main page res
-   2. Code review
-   3. Section 4
-   4. wymyslic nazwe sekcji 4 */
-
-
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 
 .ionickiss-original {
     background-color: white;
@@ -18,9 +10,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
-
 
 .ik-container {
     height: 100vh;
@@ -29,26 +19,81 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .ik-content {
     background-color: #ffffff;
-    margin: 0 auto;
+    margin: 4em auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-
-
 .ik-info-header {
+    display: none;
+}
 
+.ik-m-info-header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 2em;
+    margin: 0 0 2em 2em;
+}
+
+.ik-m-new {
+    color: #C3002F;
+    font-size: 0.75em;
+    text-align: left;
+    margin: 0;
+
+}
+
+.ik-m-logo-text {
+    color: #231F20;
+    font-size: clamp(23px, 6vw, 27px);
+    line-height: 30px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.ik-m-note-text {
+    color: #58595B;
+    font-size: 1em;
+    text-align: left;
+    margin: 0;
+}
+
+
+.ik-m-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.ik-m-text-info{
+    width: 250px;
+    margin-left: clamp(0em,5vw,5em);
+}
+.ik-m-text div:nth-child(1) p:first-child,
+.ik-m-text div:nth-child(2) p:first-child,
+.ik-m-text div:nth-child(3) p:first-child,
+.ik-m-text div:nth-child(4) p:first-child {
+    color: #231F20;
+    font-weight: 700;
+    margin: 2em 0 0 2em;
+    text-align: left;
+}
+
+
+.ik-m-text div:nth-child(1) p:last-child,
+.ik-m-text div:nth-child(2) p:last-child,
+.ik-m-text div:nth-child(3) p:last-child,
+.ik-m-text div:nth-child(4) p:last-child {
+    color: #58595B;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 0 0 2em;
+}
+.ik-m-text div:nth-child(1) p:first-child {
+    color: #C3002F;
 
 }
 
@@ -82,14 +127,48 @@
 
 }
 
-img.lazy {
-
-}
-
 
 .ik-img-original {
     width: 100px;
 }
+
+
+.ik-img-original {
+    animation: float 4s ease-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translate(0, 20px);
+    }
+}
+
+.ik-shadow {
+    animation: shrink 4s ease-out infinite;
+    height: 5px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+@keyframes shrink {
+    0% {
+        width: 60%;
+        margin: 0 2%;
+        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        width: 40%;
+        margin: 0 18%;
+        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        width: 60%;
+        margin: 0 2%;
+        box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
 
 .ik-wrap-text {
     margin-left: 2em;
@@ -109,11 +188,7 @@ img.lazy {
 
 
 .ik-text-info {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    align-items: center;
-    justify-content: center;
+    display: none;
 }
 
 .ik-text-info p {
@@ -125,7 +200,7 @@ img.lazy {
     width: 68px;
     height: 68px;
     background-color: #A7A9AC;
-    color: white;
+    color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -138,9 +213,6 @@ img.lazy {
     margin-right: 10em;
 }
 
-.ik-m-manual {
-
-}
 
 .ik-circle-manual p {
     margin: 30px 15px 0 0;
@@ -154,7 +226,7 @@ img.lazy {
     width: 50px;
     height: 50px;
     background-color: #C3002F;
-    color: white;
+    color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -173,7 +245,6 @@ img.lazy {
 }
 
 .ik-circle-japan p {
-
     color: #C3002F;
 }
 
@@ -181,7 +252,7 @@ img.lazy {
     width: 45px;
     height: 45px;
     background-color: #58595B;
-    color: white;
+    color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -210,7 +281,9 @@ img.lazy {
 .ik-article {
     text-align: center;
     max-width: 230px;
-
+}
+.ik-article-fix {
+    padding-bottom: 1.4em;
 }
 
 .ik-article-photo {
@@ -245,7 +318,9 @@ img.lazy {
 .ik-title {
     font-size: 2em;
     font-weight: 700;
-    margin: 0 auto;
+    text-align: center;
+    margin-top: clamp(1em, 10vw, 5em);
+
 }
 
 .ik-title span {
@@ -265,11 +340,6 @@ img.lazy {
 }
 
 
-.ik-title {
-    text-align: center;
-    margin-top: 5em;
-}
-
 .ik-content-secondary {
     background-color: #ffffff;
     margin: 0 auto;
@@ -287,7 +357,9 @@ img.lazy {
     margin: 0 auto;
     height: 120vh;
 }
-
+.ik-info-brush {
+    width: 680px;
+}
 
 .ik-third-content {
     background-color: #ffffff;
@@ -353,9 +425,10 @@ img.lazy {
     flex-direction: column;
 }
 
-.ik-title-fix{
-    margin: 1em;
+.ik-title-fix {
+    margin-top: 7em;
 }
+
 .ik-promo-photo {
     width: 300px;
     margin: 0 auto;
@@ -379,24 +452,28 @@ img.lazy {
     align-items: center;
     margin-top: 5em;
 }
+
 .ik-promos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .ik-promo-title {
     font-size: 1.25em;
     color: #707070;
     font-weight: 700;
     text-align: center;
-        margin: 1.25em 0.25em;
+    margin: 1.25em 0.25em;
 }
-.ik-promo-text{
+
+.ik-promo-text {
     font-weight: normal;
     color: #707070;
     line-height: 25px;
 }
+
 /*====================================================================================================================*/
 /*====================================================================================================================*/
 /*====================================================================================================================*/
@@ -438,7 +515,9 @@ img.lazy {
 
 
 @media (min-width: 960px) and (max-width: 1229px) {
-
+    .ik-m-text-info {
+        display: none;
+    }
 
     .ik-container {
         width: 960px;
@@ -465,7 +544,11 @@ img.lazy {
 
     .ik-info-header {
         width: 300px;
-        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
+
     }
 
     .ik-new {
@@ -594,8 +677,8 @@ img.lazy {
         border-radius: 50%;
         background-color: #E0E1E2;
         position: absolute;
-        top: 130px;
-        left: 120px;
+        top: 70px;
+        left: 130px;
     }
 
     .ik-m-manual {
@@ -678,7 +761,7 @@ img.lazy {
     }
 
     .ik-title {
-        margin-top: 2em;
+        margin: 3em 0;
     }
 
     .ik-mid-container {
@@ -715,12 +798,18 @@ img.lazy {
         flex-direction: column;
         height: 100%;
     }
+
     .ik-fourth-content {
         width: 680px;
     }
+
     .ik-third-section {
         height: auto;
     }
+
+
+
+
 }
 
 
@@ -766,6 +855,9 @@ img.lazy {
 
 @media (min-width: 1230px) {
 
+    .ik-m-text-info {
+        display: none;
+    }
 
     .ik-container {
         width: 1200px;
@@ -791,7 +883,10 @@ img.lazy {
 
     .ik-info-header {
         width: 300px;
-        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2em;
     }
 
     .ik-new {
@@ -916,8 +1011,8 @@ img.lazy {
         border-radius: 50%;
         background-color: #E0E1E2;
         position: absolute;
-        top: 130px;
-        left: 160px;
+        top: 70px;
+        left: 170px;
     }
 
     .ik-m-manual {
@@ -1034,24 +1129,34 @@ img.lazy {
         height: 100%;
 
     }
-    /* Section 4  */
 
+    /* Section 4  */
     .ik-promos {
-        flex-direction: row;
+        flex-direction: column;
     }
+
     .ik-promo {
         margin: 0 6em;
     }
+
     .ik-fourth-content {
         width: 920px;
-        height: 70vh;
+        height: 150vh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+    .ik-promo-wrap {
+        display: flex;
+        flex-direction: row;
+        margin-top: 7em;
+    }
+
     .ik-promo-title {
         margin: 1.25em 0;
     }
+
     .ik-title-fix {
         margin: 0 0 1em 0;
     }
