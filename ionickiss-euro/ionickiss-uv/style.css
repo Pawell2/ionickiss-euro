@@ -21,6 +21,11 @@
     align-items: center;
 }
 
+.lazy {
+    width: auto;
+    max-width: 100%;
+}
+
 .ik-content {
     background-color: #ffffff;
     margin: 4em auto 0;
@@ -82,9 +87,7 @@
     margin: 2em 0 0 2em;
     text-align: left;
     font-size: clamp(14px, 2vw, 16px);
-
 }
-
 
 .ik-m-text div:nth-child(1) p:last-child,
 .ik-m-text div:nth-child(2) p:last-child,
@@ -98,7 +101,7 @@
 }
 
 .ik-m-text div:nth-child(1) p:first-child {
-    color: #C3002F;
+    color: #aad2e9;
     font-size: clamp(14px, 2vw, 16px);
 }
 
@@ -134,12 +137,8 @@
 
 
 .ik-img-original {
-    width: clamp(10em, 5vw, 8em);
-}
-
-
-.ik-img-original {
     animation: float 4s ease-out infinite;
+    width: clamp(7em, 30vw, 8em);
 }
 
 @keyframes float {
@@ -158,17 +157,17 @@
 
 @keyframes shrink {
     0% {
-        width: 70%;
+        width: 80%;
         margin: 0 2%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
     50% {
-        width: 45%;
+        width: 55%;
         margin: 0 18%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.2);
     }
     100% {
-        width: 70%;
+        width: 80%;
         margin: 0 2%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
@@ -230,7 +229,7 @@
 .ik-japan {
     width: 50px;
     height: 50px;
-    background-color: #C3002F;
+    background-color: #aad2e9;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -246,11 +245,11 @@
     align-items: flex-start;
     flex-direction: column;
     position: relative;
-    margin-bottom: 100px;
+    margin: 100px 0;
 }
 
 .ik-circle-japan p {
-    color: #C3002F;
+    color: #aad2e9;
 }
 
 .ik-ionic {
@@ -292,10 +291,12 @@
     transform: scale(1.1);
     margin-bottom: 1.5em;
 }
+
 .ik-article-text-fix {
     font-size: 14px;
 
 }
+
 .ik-article-title-fix {
     font-size: 23px;
 }
@@ -316,6 +317,10 @@
 
 .ik-article-scale {
     transform: scale(1.25);
+}
+
+.ik-info-headers {
+    margin-bottom: 7em;
 }
 
 .ik-article-title {
@@ -379,7 +384,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    max-width: 680px;
 }
+
 
 .ik-plus div {
     display: flex;
@@ -507,15 +515,7 @@
     margin-top: 5em;
     text-align: justify;
 }
-.ik-promo-circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #C3002F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .ik-promos {
     display: flex;
@@ -616,7 +616,7 @@
     }
 
     .ik-new {
-        width: 280px;
+        width: 208px;
         color: #C3002F;
         font-size: 0.65em;
         text-align: left;
@@ -641,18 +641,19 @@
         flex-direction: column;
     }
 
-    img.lazy {
+    .lazy {
         width: auto;
         max-width: 100%;
     }
 
-    img.lazy.ik-img-original {
+    .ik-img-original {
         width: 130px;
         margin: 0 auto;
 
     }
 
     .ik-img-original {
+        width: 160px;
         animation: float 4s ease-out infinite;
     }
 
@@ -674,17 +675,17 @@
         0% {
             width: 60%;
             margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
         }
         50% {
             width: 40%;
             margin: 0 18%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.2);
         }
         100% {
             width: 60%;
             margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
         }
     }
 
@@ -763,15 +764,15 @@
         height: 13px;
         width: 13px;
         border-radius: 50%;
-        background-color: #9F0228;
+        background-color: #8db0c4;
         position: absolute;
-        top: 70px;
-        left: 50px;
+        top: 85px;
+        left: 40px;
     }
 
     .ik-circle-japan p {
         margin: 10px 0 10px 0;
-        color: #C3002F;
+        color: #aad2e9;
     }
 
 
@@ -818,10 +819,9 @@
     .ik-info-headers {
         width: 680px;
         display: flex;
-        margin: 0 auto;
         flex-direction: column;
         height: 100%;
-
+        margin: 0;
     }
 
     .ik-title {
@@ -850,9 +850,6 @@
     /*====================================================================================================================*/
     /*===============================================SECTION=PLUS========================================================*/
     /*====================================================================================================================*/
-    .ik-plus div {
-        max-width: 680px;
-    }
 
 
     /*====================================================================================================================*/
@@ -963,7 +960,7 @@
     .ik-new {
         color: #C3002F;
         font-size: 0.75em;
-        width: 280px;
+        width: 209px;
         text-align: left;
         line-height: 0;
     }
@@ -987,19 +984,13 @@
         flex-direction: column;
     }
 
-    img.lazy {
-        width: auto;
-        max-width: 100%;
-    }
 
-    img.lazy.ik-img-original {
-        width: 130px;
-        margin: 0 auto;
-    }
+
 
 
     .ik-img-original {
         animation: float 4s ease-out infinite;
+        width: 160px;
     }
 
     @keyframes float {
@@ -1020,17 +1011,17 @@
         0% {
             width: 60%;
             margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
         }
         50% {
             width: 40%;
             margin: 0 18%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.2);
         }
         100% {
             width: 60%;
             margin: 0 2%;
-            box-shadow: 0 30px 15px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
         }
     }
 
@@ -1096,6 +1087,7 @@
         flex-direction: column;
         position: relative;
         margin-bottom: 100px;
+
     }
 
     .ik-circle-japan:after {
@@ -1103,15 +1095,15 @@
         height: 13px;
         width: 13px;
         border-radius: 50%;
-        background-color: #9F0228;
+        background-color: #8db0c4;
         position: absolute;
-        top: 70px;
+        top: 95px;
         left: 50px;
     }
 
     .ik-circle-japan p {
         margin: 10px 0 10px 52px;
-        color: #C3002F;
+        color: #aad2e9;
     }
 
 
@@ -1189,8 +1181,9 @@
     }
 
     /* Section plus  */
-
-
+    .ik-plus {
+        width: 720px;
+    }
     /* Section 3  */
     .ik-brush-container {
         height: 90vh;
