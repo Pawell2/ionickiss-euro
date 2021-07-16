@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.ionickiss-home{
+.ionickiss-home {
     background-color: white;
     font-family: "Mulish", sans-serif;
     padding: 0;
@@ -133,12 +133,9 @@
     margin-left: 0;
 }
 
-.ik-h-img-original {
-    width: clamp(7em, 30vw, 8em);
-}
-
 
 .ik-h-img-original {
+    width: 80px;
     animation: float 4s ease-out infinite;
 }
 
@@ -158,17 +155,17 @@
 
 @keyframes shrink {
     0% {
-        width: 90%;
+        width: 85%;
         margin: 0 2%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
     50% {
-        width: 70%;
+        width: 65%;
         margin: 0 18%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.2);
     }
     100% {
-        width: 90%;
+        width: 85%;
         margin: 0 2%;
         box-shadow: 0 40px 15px 10px rgba(0, 0, 0, 0.1);
     }
@@ -286,9 +283,11 @@
     text-align: center;
     max-width: 230px;
 }
+
 .ik-h-article-solo {
     margin: 3em 0;
 }
+
 .ik-h-info-headers {
     display: flex;
     justify-content: center;
@@ -314,7 +313,7 @@
 .plus-h-horizontal {
     width: 40px;
     height: 6px;
-    background: #231f20;
+    background: #58595B;
     border-radius: 600px;
     position: absolute;
 
@@ -323,7 +322,7 @@
 .plus-h-vertical {
     width: 6px;
     height: 40px;
-    background: #231F20;
+    background: #58595B;
     border-radius: 600px;
     position: absolute;
 
@@ -419,13 +418,14 @@
 /*====================================================================================================================*/
 .ik-h-plus-section {
     margin: 0 auto;
-    height: 165vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .ik-h-plus div {
+    max-width: 680px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -581,6 +581,7 @@
     font-weight: normal;
     color: #707070;
     line-height: 25px;
+    text-align: center;
 }
 
 /*====================================================================================================================*/
@@ -661,9 +662,9 @@
     }
 
     .ik-h-new {
-        width: 250px;
+        width: 193px;
         color: #C3002F;
-        font-size: 0.65em;
+        font-size: 0.68em;
         text-align: left;
     }
 
@@ -694,7 +695,7 @@
 
     .ik-h-img-original {
         animation: float 4s ease-out infinite;
-        width: 350px;
+        width: 90px;
         margin: 0 auto;
     }
 
@@ -711,6 +712,7 @@
         border-radius: 50%;
         background-color: transparent;
     }
+
     @keyframes shrink {
         0% {
             width: 40%;
@@ -874,7 +876,7 @@
     .plus-h-horizontal {
         width: 40px;
         height: 6px;
-        background: #231F20;
+        background: #58595B;
         border-radius: 600px;
         position: absolute;
 
@@ -883,7 +885,7 @@
     .plus-h-vertical {
         width: 6px;
         height: 40px;
-        background: #231F20;
+        background: #58595B;
         border-radius: 600px;
         position: absolute;
 
@@ -926,11 +928,10 @@
     /*====================================================================================================================*/
     /*===============================================SECTION=PLUS========================================================*/
     /*====================================================================================================================*/
-    .ik-h-plus div {
-        max-width: 680px;
+    .ik-h-plus-section {
+        margin: 0 auto;
+        height: 180vh;
     }
-
-
     /*====================================================================================================================*/
     /*===============================================SECTION=THIRD========================================================*/
     /*====================================================================================================================*/
@@ -1039,7 +1040,7 @@
     .ik-h-new {
         color: #C3002F;
         font-size: 0.75em;
-        width: 250px;
+        width: 193px;
         text-align: left;
         line-height: 0;
     }
@@ -1071,7 +1072,7 @@
 
     .ik-h-img-original {
         animation: float 4s ease-out infinite;
-        width: 350px;
+        width: 100px;
         margin: 0 auto;
     }
 
@@ -1264,12 +1265,16 @@
 
     /* Section plus  */
     .ik-h-plus-section {
-        height: 190vh;
-        width: 920px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        height: 250vh;
+
     }
+   .ik-h-plus {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       max-width: 920px;
+   }
 
     /* Section 3  */
     .ik-h-brush-container {

@@ -60,6 +60,7 @@
     margin: 0;
 }
 
+
 .ik-uv-m-note-text {
     color: #58595B;
     font-size: 1em;
@@ -536,6 +537,7 @@
     font-weight: normal;
     color: #707070;
     line-height: 25px;
+    text-align: center;
 }
 
 /*====================================================================================================================*/
@@ -616,7 +618,7 @@
     }
 
     .ik-uv-new {
-        width: 208px;
+        width: 218px;
         color: #C3002F;
         font-size: 0.65em;
         text-align: left;
@@ -771,8 +773,9 @@
     }
 
     .ik-uv-circle-japan p {
-        margin: 10px 0 10px 0;
+        margin: 10px 0;
         color: #aad2e9;
+        width: 180px;
     }
 
 
@@ -960,7 +963,7 @@
     .ik-uv-new {
         color: #C3002F;
         font-size: 0.75em;
-        width: 209px;
+        width: 218px;
         text-align: left;
         line-height: 0;
     }
@@ -1097,13 +1100,14 @@
         border-radius: 50%;
         background-color: #8db0c4;
         position: absolute;
-        top: 95px;
+        top: 70px;
         left: 50px;
     }
 
     .ik-uv-circle-japan p {
-        margin: 10px 0 10px 52px;
+        margin: 10px 0 10px 22px;
         color: #aad2e9;
+
     }
 
 

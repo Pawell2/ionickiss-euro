@@ -49,8 +49,8 @@
 
 .ik-hp-m-logo-text {
     color: #231F20;
-    font-size: clamp(23px, 6vw, 27px);
-    line-height: 30px;
+    font-size: clamp(20px, 4vw, 27px);
+    line-height: 25px;
     white-space: nowrap;
     margin: 0;
 }
@@ -419,13 +419,14 @@
 /*====================================================================================================================*/
 .ik-hp-plus-section {
     margin: 0 auto;
-    height: 165vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .ik-hp-plus div {
+    max-width: 680px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -581,6 +582,7 @@
     font-weight: normal;
     color: #707070;
     line-height: 25px;
+    text-align: center;
 }
 
 /*====================================================================================================================*/
@@ -661,7 +663,7 @@
     }
 
     .ik-hp-new {
-        width: 250px;
+        width: 333px;
         color: #C3002F;
         font-size: 0.65em;
         text-align: left;
@@ -671,6 +673,7 @@
         color: #231F20;
         font-size: 2em;
         line-height: 25px;
+        width: 350px;
     }
 
     .ik-hp-note-text {
@@ -1041,7 +1044,7 @@
     .ik-hp-new {
         color: #C3002F;
         font-size: 0.75em;
-        width: 250px;
+        width: 333px;
         text-align: left;
         line-height: 0;
     }
@@ -1050,6 +1053,7 @@
         color: #231F20;
         font-size: 2em;
         margin: 0;
+        width: 350px;
     }
 
     .ik-hp-note-text {
@@ -1201,7 +1205,7 @@
         margin-bottom: 80px;
     }
 
-    .ik-hp-ircle-ionic:after {
+    .ik-hp-circle-ionic:after {
         content: "";
         height: 13px;
         width: 13px;
@@ -1272,7 +1276,6 @@
         height: 190vh;
         width: 920px;
         display: flex;
-        justify-content: flex-end;
         align-items: flex-end;
     }
 
@@ -1299,7 +1302,7 @@
 
     /* Section 4  */
     .ik-hp-promos {
-        flex-direction: column;
+
     }
 
     .ik-hp-promo {
@@ -1325,7 +1328,7 @@
     }
 
     .ik-hp-title-fix {
-        margin: 0 0 1em 0;
+        margin: 5em 0 2em 0;
     }
 }
 
