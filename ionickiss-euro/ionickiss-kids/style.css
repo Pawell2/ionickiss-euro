@@ -311,7 +311,7 @@ background-color: #ff22fd;
 .plus-k-horizontal {
     width: 40px;
     height: 6px;
-    background: #231f20;
+    background: #58595B;
     border-radius: 600px;
     position: absolute;
 
@@ -320,7 +320,7 @@ background-color: #ff22fd;
 .plus-k-vertical {
     width: 6px;
     height: 40px;
-    background: #231F20;
+    background: #58595B;
     border-radius: 600px;
     position: absolute;
 
