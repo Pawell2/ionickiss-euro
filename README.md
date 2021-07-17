@@ -5,9 +5,9 @@
 
 Hi,
   I am a young programmer, I'm just starting to learn it, I want to give the project the best possible form
-but because short because of the short amount of time (five days) I couldn't make it in 100% as I wanted.
+but because of the short amount of time (few days) I couldn't make it in 100% as I wanted.
 
-Things to see / fix:
+Things TODO:
 
 1. Remove tags html, meta etc.
 2. The photos are only in html and written in two ways (with and without LazyLoad), just uncomment the chosen way
