@@ -1,6 +1,6 @@
 # IONICKISS-RICH-CONTENT
 
-Odniesienie do niedoskonałości
+Odniesienie do niedoskonałości:
 1. zastosowanie poprawek do sekcji,
 2. ścieżki do styli są dodane w pierwszej linijce html (x7),
 3. Zmiana ścieżek do zdjęć wg, wzoru (x7),
