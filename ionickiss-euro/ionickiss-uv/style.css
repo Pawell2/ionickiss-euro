@@ -2,7 +2,7 @@
     background-color: white;
     font-family: "Mulish", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -15,10 +15,7 @@
     align-items: center;
 }
 
-.lazy {
-    width: auto;
-    max-width: 100%;
-}
+
 
 .ik-uv-content {
     background-color: #ffffff;
@@ -215,6 +212,7 @@
 
 .ik-uv-circle-manual p {
     margin: 30px 15px 0 0;
+    max-width: 230px;
 }
 
 .ik-uv-circle-manual {
@@ -601,10 +599,7 @@
         flex-direction: column;
     }
 
-    .lazy {
-        width: auto;
-        max-width: 100%;
-    }
+
 
     .ik-uv-img-original {
         width: 130px;
@@ -1016,7 +1011,7 @@
         border-radius: 50%;
         background-color: #8db0c4;
         position: absolute;
-        top: 70px;
+        top: 93px;
         left: 50px;
     }
 

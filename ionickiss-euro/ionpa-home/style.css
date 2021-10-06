@@ -2,7 +2,7 @@
     background-color: white;
     font-family: "Mulish", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -211,6 +211,7 @@
 
 .ik-h-circle-manual p {
     margin: 30px 15px 0 0;
+    max-width: 230px;
 }
 
 .ik-h-circle-manual {
@@ -644,10 +645,7 @@
         flex-direction: column;
     }
 
-    .lazy {
-        width: auto;
-        max-width: 100%;
-    }
+
 
 
     .ik-h-img-original {
@@ -984,10 +982,6 @@
         flex-direction: column;
     }
 
-    .lazy {
-        width: auto;
-        max-width: 100%;
-    }
 
 
     .ik-h-img-original {

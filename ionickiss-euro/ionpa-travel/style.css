@@ -2,14 +2,10 @@
     background-color: white;
     font-family: "Mulish", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
-.lazy {
-    width: auto;
-    max-width: 100%;
-}
 
 .ik-t-container {
     height: 100vh;
@@ -216,6 +212,7 @@
 
 .ik-t-circle-manual p {
     margin: 30px 15px 0 0;
+    max-width: 230px;
 }
 
 .ik-t-circle-manual {
@@ -582,7 +579,8 @@
 
 
     .ik-t-img-original {
-        width: 220px;
+        width: 200px;
+        height: 595px;
         margin: 0 auto;
 
     }
@@ -854,7 +852,8 @@
 
 
     .ik-t-img-original {
-        width: 250px;
+        width: 220px;
+        height: 655px;
         margin: 0 auto;
     }
 

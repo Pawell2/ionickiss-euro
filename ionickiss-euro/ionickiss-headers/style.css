@@ -2,14 +2,10 @@
     background-color: white;
     font-family: "Mulish", sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
-.lazy {
-    width: auto;
-    max-width: 100%;
-}
 
 .ik-hd-container {
     height: 100vh;
@@ -218,6 +214,7 @@
 
 .ik-hd-circle-manual p {
     margin: 30px 15px 0 0;
+    max-width: 230px;
 }
 
 .ik-hd-circle-manual {
