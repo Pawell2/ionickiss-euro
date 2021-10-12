@@ -126,6 +126,7 @@
 
 .ik-img-original {
     width: 100px;
+    height: 551px;
 }
 
 
@@ -531,7 +532,16 @@
     text-align: center;
 }
 
+@media (max-width: 549px) {
+    .ik-plus-section {
+        margin: 30em auto;
+        height: 240vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+}
 /*====================================================TABLET==========================================================*/
 
 
@@ -602,6 +612,7 @@
 
     .ik-img-original {
         width: 130px;
+        height: 717px;
         margin: 0 auto;
 
     }
@@ -898,6 +909,7 @@
 
     .ik-img-original {
         width: 130px;
+        height: 717px;
         margin: 0 auto;
     }
 
