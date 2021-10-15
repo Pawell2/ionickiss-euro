@@ -129,6 +129,7 @@
 
 
 .ik-h-img-original {
+    height: 526px;
     width: 80px;
     animation: float 4s ease-out infinite;
 }
@@ -413,7 +414,7 @@
 
 .ik-h-plus-section {
     margin: 0 auto;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -578,7 +579,17 @@
     line-height: 25px;
     text-align: center;
 }
+/*================================================MOBILE==============================================================*/
+@media (max-width: 549px) {
+    .ik-h-plus-section {
+        margin: 0 auto;
+        height: 400vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+}
 /*================================================TABLET==============================================================*/
 
 
@@ -652,6 +663,7 @@
         animation: float 4s ease-out infinite;
         width: 90px;
         margin: 0 auto;
+        height: 592px;
     }
 
     @keyframes float {
@@ -885,7 +897,7 @@
 
     .ik-h-plus-section {
         margin: 0 auto;
-        height: 180vh;
+        height: 200vh;
     }
 
     /*===============================================SECTION=THIRD========================================================*/
@@ -988,6 +1000,7 @@
         animation: float 4s ease-out infinite;
         width: 100px;
         margin: 0 auto;
+        height: 658px;
     }
 
     @keyframes float {
@@ -1179,8 +1192,7 @@
 
     /*================================================SECTION=PLUS===================================================*/
     .ik-h-plus-section {
-        height: 250vh;
-
+        height: 300vh;
     }
    .ik-h-plus {
        display: flex;

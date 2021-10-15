@@ -128,7 +128,8 @@
 }
 
 .ik-hp-img-original {
-    width: clamp(7em, 30vw, 8em);
+    width: 128px;
+    height: 512px;
 }
 
 
@@ -414,7 +415,7 @@
 
 .ik-hp-plus-section {
     margin: 0 auto;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,7 +580,18 @@
     line-height: 25px;
     text-align: center;
 }
+/*================================================MOBILE==============================================================*/
 
+@media (max-width: 549px) {
+    .ik-hp-plus-section {
+        margin: 0 auto;
+        height: 400vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
 /*==========================================================TABLET=====================================================*/
 
 
@@ -651,13 +663,11 @@
 
     .ik-hp-img-original {
         width: 170px;
+        height: 680px;
         margin: 0 auto;
 
     }
 
-    .ik-hp-img-original {
-        animation: float 4s ease-out infinite;
-    }
 
     @keyframes float {
         50% {
@@ -891,7 +901,13 @@
         max-width: 680px;
     }
 
-
+    .ik-hp-plus-section {
+        margin: 0 auto;
+        height: 240vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     /*===============================================SECTION=THIRD========================================================*/
 
@@ -991,13 +1007,10 @@
 
     .ik-hp-img-original {
         width: 180px;
+        height: 720px;
         margin: 0 auto;
     }
 
-
-    .ik-hp-img-original {
-        animation: float 4s ease-out infinite;
-    }
 
     @keyframes float {
         50% {
@@ -1188,7 +1201,7 @@
 
     /*================================================SECTION=PLUS===================================================*/
     .ik-hp-plus-section {
-        height: 190vh;
+        height: 280vh;
         width: 920px;
         display: flex;
         align-items: flex-end;
