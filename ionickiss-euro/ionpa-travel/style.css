@@ -127,6 +127,8 @@
 
 .ik-t-img-original {
     width: 170px;
+    height: 506px;
+    margin: 0 auto;
 }
 
 .ik-t-img-original {
@@ -574,14 +576,12 @@
 
     .ik-t-note-text {
         color: #58595B;
-        font-size: 1em;
+        font-size: 0.8em;
         display: flex;
         justify-content: center;
         line-height: 30px;
     }
-    .ik-t-note-text sup {
-        height: 30px;
-    }
+
     .ik-t-mid-info {
         display: flex;
         flex-direction: column;
@@ -853,14 +853,12 @@
 
     .ik-t-note-text {
         color: #58595B;
-        font-size: 1em;
+        font-size: 0.8em;
         display: flex;
         justify-content: center;
         margin: 0;
     }
-    .ik-t-note-text sup {
-        height: 30px;
-    }
+
     .ik-t-mid-info {
         display: flex;
         flex-direction: column;
