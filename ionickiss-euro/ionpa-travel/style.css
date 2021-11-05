@@ -579,7 +579,9 @@
         justify-content: center;
         line-height: 30px;
     }
-
+    .ik-t-note-text sup {
+        height: 30px;
+    }
     .ik-t-mid-info {
         display: flex;
         flex-direction: column;
@@ -856,7 +858,9 @@
         justify-content: center;
         margin: 0;
     }
-
+    .ik-t-note-text sup {
+        height: 30px;
+    }
     .ik-t-mid-info {
         display: flex;
         flex-direction: column;
