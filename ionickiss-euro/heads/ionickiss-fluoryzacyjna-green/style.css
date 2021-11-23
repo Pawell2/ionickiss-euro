@@ -28,7 +28,7 @@
 
 .ik-fg-main-section {
     width: 100%;
-    min-height: 120vh;
+    min-height: 140vh;
     background-color: #EDEEEF;
     display: flex;
     align-items: center;
@@ -41,9 +41,11 @@
 
 .ik-fg-flag {
     width: 75px;
+    height: 50px;
     display: flex;
-    margin: 0 auto;
+    margin: 10px auto 0;
 }
+
 
 .ik-fg-japan-flag-wrapper {
     display: none;
@@ -52,6 +54,10 @@
 
 .ik-fg-logo {
     width: 300px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
 }
 
 .ik-fg-note {
@@ -59,7 +65,7 @@
     width: 95%;
     text-align: left;
     font-size: 12px !important;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .ik-fg-main-wrapper {
@@ -87,7 +93,6 @@
     position: relative;
     top: 65px;
     width: 80%;
-
 }
 
 
@@ -100,11 +105,21 @@
     align-items: center;
 }
 
+.ik-fg-main-brush:after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background-color: #58595B;
+    margin-top: 42px;
+}
+
 .ik-fg-main-brush-img {
     position: absolute;
     top: -179px;
     width: 50px;
+    height: 220px;
 }
+
 
 .ik-fg-main-text {
     text-align: center;
@@ -189,6 +204,7 @@
     font-size: 16px;
     color: #A7A9AC;
     font-weight: 400;
+    width: 90%;
 }
 
 .ik-fg-lay-brush {
@@ -258,7 +274,7 @@
 
 
 .ik-fg-group-img {
-    width: 80%;
+    width: 70%;
     margin-bottom: 40px;
 }
 
@@ -290,7 +306,7 @@
 
 .ik-fg-fourth-section {
     width: 100%;
-    min-height: 115vh;
+    min-height: 111vh;
     background-color: #EDEEEF;
     display: flex;
     align-items: center;
@@ -302,19 +318,21 @@
 }
 
 .ik-fg-pack-2x-img {
-    width: 100px;
-    margin-bottom: 10px;
+    width: clamp(5.625em, 25vw, 7em);
+    margin-top: 20px;
 }
 
 .ik-fg-fourth-section p {
     color: #00102D;
     font-size: 18px;
     margin: 20px 20px;
+    max-width: 600px;
 }
 
-.ik-fg-fourth-section p:nth-child(1) {
+.ik-fg-note-fix {
     position: absolute;
     top: 0;
+    color: #58595B !important;
 }
 
 .ik-fg-2x {
@@ -323,6 +341,49 @@
 
 
 /*=================================================SECTION=5==========================================================*/
+
+.ik-fg-fifth-section {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #EDEEEF;
+}
+
+.ik-fg-fifth-wrapper {
+    display: none;
+}
+
+.ik-fg-fifth-content-mobile {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.ik-fg-fifth-content-mobile p {
+    color: #231F20;
+    font-size: 18px;
+}
+
+.ik-fg-fifth-content-mobile p:nth-child(1) {
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.ik-fg-fifth-content-mobile span {
+    color: #C3002F;
+    font-weight: 600;
+}
+
+
+/*=================================================SECTION=6==========================================================*/
 
 .ik-fg-sixth-section {
     width: 100%;
@@ -338,17 +399,24 @@
 
 .ik-fg-sixth-section p {
     color: #231F20;
-    font-size: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 70px;
+    letter-spacing: 2px;
 }
 
 
 .ik-fg-japan-house {
-    width: 90%;
+    width: 320px;
 
 }
 
 .ik-fg-footer-photos {
 
+}
+
+.ik-fg-footer-logo {
+    display: none;
 }
 
 
@@ -357,23 +425,47 @@
 
 @media (min-width: 960px) and (max-width: 1229px) {
 
-    .ik-fg-main-section {
-        min-height: 100vh;
+    .ik-fg-fifth-content-mobile {
+        display: none;
+    }
 
+    .ik-fg-content {
+        height: 550vh;
+    }
+
+    .ik-fg-main-section {
+        min-height: 110vh;
+
+    }
+
+    .ik-fg-main-brush:after {
+        content: "";
+        margin-top: 42px;
     }
 
     .ik-fg-third-section {
-        min-height: 90vh!important;
+        min-height: 110vh !important;
     }
 
 
+    .ik-fg-logo {
+        margin-top: 50px;
+    }
+
+    .ik-fg-japan-flag-text {
+        color: #C3002F !important;
+        font-weight: 500;
+    }
+
     .ik-fg-japan-flag-wrapper {
-        margin-top: 1em;
+        margin-top: 10px;
         color: #58595B;
         width: 90%;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
     }
 
     .ik-fg-group-img {
@@ -403,10 +495,144 @@
     }
 
 
-
     .ik-fg-second-section p {
         margin: 0 30px;
     }
+
+    .ik-fg-fourth-section {
+        min-height: 120vh;
+
+    }
+
+    .ik-fg-fourth-section p {
+        max-width: 680px;
+        font-size: 20px;
+
+    }
+
+    .ik-fg-pack-2x-img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+
+    .ik-fg-fifth-section {
+        width: 680px;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        position: relative;
+        border-radius: 5px;
+        background-color: #EDEEEF;
+    }
+
+
+    .ik-fg-fifth-section p {
+        color: #231F20;
+        font-size: 24px;
+
+    }
+
+    .ik-fg-fifth-section p span {
+        color: #C3002F;
+        font-weight: 600;
+    }
+
+    .ik-fg-fifth-wrapper {
+        display: flex;
+
+    }
+
+    .ik-fg-fifth-content {
+        display: flex;
+
+    }
+
+    .ik-fg-fifth-text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .ik-fg-fifth-text p:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .ik-fg-fifth-text p:nth-child(2) {
+        margin-right: 50px;
+        font-size: 20px;
+
+    }
+
+    .ik-fg-quality-note {
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+
+    .ik-fg-fifth-content-mobile {
+        display: none;
+    }
+
+
+    .ik-fg-japan-brush-img {
+        width: 125px;
+        height: 550px;
+        position: absolute;
+        top: 0;
+        left: 520px;
+    }
+
+
+    .ik-fg-fifth-wrapper {
+        display: flex;
+        min-height: 70vh;
+
+    }
+
+    .ik-fg-fifth-content {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .ik-fg-fifth-text {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ik-fg-fifth-text p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .ik-fg-fifth-text p:nth-child(2) {
+
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .ik-fg-quality-note {
+        margin-left: 20px;
+        max-width: 60px;
+    }
+
+
+    .ik-fg-sixth-section p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+    .ik-fg-japan-house {
+        width: 450px;
+        height: 320px;
+    }
+
+
 }
 
 
@@ -421,15 +647,13 @@
         width: 90%;
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: flex-start;
     }
-
-
 
 
     .ik-fg-main-section {
         width: 920px;
-        min-height: 100vh;
+        min-height: 110vh;
     }
 
     .ik-fg-content {
@@ -441,6 +665,9 @@
 
     }
 
+    .ik-fg-logo {
+        margin-top: 50px;
+    }
 
     .ik-fg-main-circle {
         width: 25px;
@@ -458,6 +685,7 @@
         position: absolute;
         top: -219px;
         width: 70px;
+        height: 308px;
     }
 
     .ik-fg-main-head-img {
@@ -471,6 +699,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+
     }
 
     .ik-fg-third-text {
@@ -486,6 +715,14 @@
         background-color: #ffffff;
     }
 
+    .ik-fg-main-brush:after {
+        content: "";
+        width: 300px;
+        height: 1px;
+        margin-top: 89px;
+        position: absolute;
+        top: 0;
+    }
 
     .ik-fg-banner {
         border-radius: 5px;
@@ -509,7 +746,7 @@
     }
 
     .ik-fg-desktop-module p {
-        color: #58595B !important;
+        color: #58595B;
 
     }
 
@@ -520,83 +757,92 @@
 
     .ik-fg-desktop-module p:nth-child(2) {
         font-size: 28px !important;
-        font-weight: 400 !important;
+        font-weight: 700;
         margin-top: 220px;
+        z-index: 10;
     }
 
     .ik-fg-desktop-module ul li {
         font-size: 28px !important;
-        font-weight: 400 !important;
-        color: #58595B;
+        font-weight: 400;
+        color: #757679;
+    }
+
+    .ik-fg-third-ul-title {
+        color: #404040 !important;
+        margin-top: 50px;
+        font-weight: 400;
     }
 
     .ik-fg-desktop-module ul {
-        margin-bottom: 370px;
+        margin: 0 0 370px 0;
         z-index: 10;
         list-style: disc;
     }
 
 
+
     .ik-fg-fourth-section {
-        min-height: 90vh;
+        height: 80vh!important;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
     .ik-fg-pack-2x-img {
-        width: 200px;
-
+        width: 190px;
+        height: 700px;
     }
 
     .ik-fg-promo-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
         width: 40%;
+    }
+
+    .ik-fg-fourth-section p:nth-child(1) {
+        position: absolute;
+        top: 0;
+        padding: 0;
     }
 
     .ik-fg-promo-text-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 90vh;
         width: 60%;
     }
 
+    .ik-fg-fourth-section p {
+        max-width: 920px;
+    }
+
     .ik-fg-promo-text-wrapper p {
-        margin-top: 190px;
+        margin-top: 300px;
         font-size: 24px;
         color: #58595B;
     }
 
     .ik-fg-2x {
         display: block;
-        position: absolute;
-        top: 300px;
-        left: 235px;
         color: #333 !important;
-        font-size: 570px !important;
+        font-size: 530px !important;
         font-weight: 800;
         opacity: 0.5;
+        margin-top: 800px !important;
+        margin-right: 150px !important;
     }
 
     /*=================================================SECTION=5==========================================================*/
-
     .ik-fg-fifth-section {
         width: 920px;
-        height: 60vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        min-height: 591px;
         margin-top: 18em;
-        position: relative;
-        border-radius: 5px;
-        background-color: #EDEEEF;
 
     }
+
+
 
     .ik-fg-fifth-section p {
         color: #231F20;
@@ -610,10 +856,11 @@
     }
 
     .ik-fg-japan-brush-img {
-        width: 154px;
-        height: 680px;
-        position: relative;
-        top: -95px;
+        width: 134px;
+        height: 591px;
+        position: absolute;
+        top: 0;
+        left: 700px;
     }
 
     .ik-fg-fifth-wrapper {
@@ -629,14 +876,14 @@
     .ik-fg-fifth-text {
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
+        margin: 100px 200px 0 0;
     }
 
-    .ik-fg-fifth-text p:nth-child(1){
-       font-size: 34px;
+    .ik-fg-fifth-text p:nth-child(1) {
+        font-size: 34px;
     }
 
-    .ik-fg-fifth-text p:nth-child(2){
+    .ik-fg-fifth-text p:nth-child(2) {
         width: 550px;
         margin-right: 50px;
         font-size: 20px;
@@ -645,14 +892,21 @@
 
     .ik-fg-quality-note {
         margin-right: 70px;
+        margin-left: 20px;
     }
+
+    .ik-fg-fifth-content-mobile {
+        display: none;
+    }
+
     /*=================================================SECTION=6==========================================================*/
     .ik-fg-sixth-section {
-        min-height: 50vh;
+        min-height: 46vh;
         max-width: 920px;
         display: flex;
         justify-content: space-between;
         position: relative;
+
     }
 
     .ik-fg-sixth-section p {
@@ -677,10 +931,13 @@
     }
 
     .ik-fg-footer-logo {
+        display: block;
         width: 125px;
+        height: 56px;
         position: absolute;
-        top: 86%;
+        top: 0;
         left: 85%;
+        margin-top: 400px;
     }
 
 
@@ -690,7 +947,7 @@
         height: 173px;
         display: block;
         position: absolute;
-        top: 99%;
+        top: 115%;
         left: 60%;
     }
 
@@ -700,7 +957,7 @@
         height: 190px;
         display: block;
         position: absolute;
-        top: 84%;
+        top: 87%;
         left: 0;
     }
 
@@ -715,16 +972,18 @@
     }
 
     .ik-fg-tree4 {
-
+        transform: rotate(270deg);
         width: 300px;
-
         display: block;
         position: absolute;
-        top: 65%;
-        left: 0;
+        top: 45%;
+        left: -5%;
     }
 
-
+    .ik-fg-japan-flag-text {
+        color: #C3002F !important;
+        font-weight: 600;
+    }
 
 }
 
