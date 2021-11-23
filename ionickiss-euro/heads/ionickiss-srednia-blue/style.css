@@ -1,0 +1,991 @@
+.ionickiss-srednia-blue {
+    background-color: white;
+    font-family: "Mulish", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+
+/*==================================================MOBILE============================================================*/
+
+.ik-sb-content {
+    width: 100%;
+    height: 578vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ik-sb-section {
+    max-width: 600px;
+}
+
+.ionickiss-fluoryzacyjna-green ul {
+    list-style: disc;
+}
+
+.ik-sb-main-section {
+    width: 100%;
+    min-height: 140vh;
+    background-color: #EDEEEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 30px 10px 0 10px;
+    position: relative;
+}
+
+.ik-sb-flag {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    margin: 10px auto 0;
+}
+
+
+.ik-sb-japan-flag-wrapper {
+    display: none;
+}
+
+
+.ik-sb-logo {
+    width: 300px;
+    height: 134px;
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+
+.ik-sb-note {
+    color: #58595B;
+    width: 95%;
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: 700;
+}
+
+.ik-sb-main-wrapper {
+    vertical-align: center;
+    height: 720px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.ik-sb-main-head {
+    width: 200px;
+    height: 420px;
+    position: sticky;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ik-sb-main-head-img {
+    position: relative;
+    top: 65px;
+    width: 80%;
+}
+
+
+.ik-sb-main-brush {
+    position: relative;
+    width: 80%;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ik-sb-main-brush:after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background-color: #58595B;
+    margin-top: 42px;
+}
+
+.ik-sb-main-brush-img {
+    position: absolute;
+    top: -179px;
+    width: 50px;
+    height: 220px;
+}
+
+
+.ik-sb-main-text {
+    text-align: center;
+}
+
+.ik-sb-main-text p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 700;
+    color: #231F20;
+}
+
+.ik-sb-main-text p:nth-child(2) {
+
+    font-size: 18px;
+    color: #585353;
+    margin: 0 20px 30px 20px;
+}
+
+.ik-sb-main-text span {
+    color: #C3002F;
+}
+
+.ik-sb-main-text sup {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.ik-sb-main-text p {
+    display: flex;
+    flex-direction: column;
+}
+
+.ik-sb-desktop-module {
+    display: none;
+}
+
+/*==================================================SECTION=2=========================================================*/
+
+.ik-sb-second-section {
+    margin: 100px 10px 0 10px;
+    width: 100%;
+    min-height: 75vh;
+    background-color: #EDEEEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.ik-sb-second-section p {
+    margin: 0;
+    text-align: center;
+}
+
+.ik-sb-second-section p:nth-child(1) {
+    position: absolute;
+    top: 0;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.ik-sb-second-section p:nth-child(2) {
+    color: #231F20;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+.ik-sb-second-section p:nth-child(3) {
+    font-size: 24px;
+    color: #A7A9AC;
+    font-weight: 300;
+    margin-bottom: 70px;
+    letter-spacing: 2px;
+}
+
+.ik-sb-technology-text {
+    font-size: 16px;
+    color: #A7A9AC;
+    font-weight: 400;
+    width: 90%;
+}
+
+.ik-sb-lay-brush {
+    margin-bottom: 100px;
+    width: 90%;
+}
+
+/*=================================================SECTION=3==========================================================*/
+
+
+.ik-sb-third-section {
+    width: 100%;
+    min-height: 110vh;
+    background-color: #EDEEEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.ik-sb-third-section p:nth-child(1) {
+    text-align: left;
+    position: absolute;
+    top: 0;
+
+}
+
+.ik-sb-third-section p:nth-child(2) {
+    font-weight: 800;
+    font-size: 28px;
+    margin: 5px 0;
+
+    color: #231F20;
+}
+
+.ik-sb-third-section p:nth-child(3) {
+    color: #A7A9AC;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 5px 0 35px 0;
+    letter-spacing: 2px;
+}
+
+.ik-sb-third-text {
+    color: #58595B;
+    text-align: left;
+    width: 90%;
+}
+
+.ik-sb-third-text1 {
+    margin: 1em 0;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.ik-sb-third-text2 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.ik-sb-third-text3 {
+
+}
+
+
+.ik-sb-group-img {
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.ik-sb-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ik-sb-tree1 {
+    display: none;
+}
+
+.ik-sb-tree2 {
+    display: none;
+}
+
+.ik-sb-tree3 {
+    display: none;
+}
+
+.ik-sb-tree4 {
+    display: none;
+}
+
+/*=================================================SECTION=4==========================================================*/
+
+
+.ik-sb-fourth-section {
+    width: 100%;
+    min-height: 111vh;
+    background-color: #EDEEEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.ik-sb-pack-2x-img {
+    width: clamp(5.625em, 25vw, 7em);
+    margin-top: 20px;
+}
+
+.ik-sb-fourth-section p {
+    color: #00102D;
+    font-size: 18px;
+    margin: 20px 20px;
+    max-width: 600px;
+}
+
+.ik-sb-note-fix {
+    position: absolute;
+    top: 0;
+    color: #58595B !important;
+}
+
+.ik-sb-2x {
+    display: none;
+}
+
+
+/*=================================================SECTION=5==========================================================*/
+
+.ik-sb-fifth-section {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 5px;
+    background-color: #EDEEEF;
+}
+
+.ik-sb-fifth-wrapper {
+    display: none;
+}
+
+.ik-sb-fifth-content-mobile {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.ik-sb-fifth-content-mobile p {
+    color: #231F20;
+    font-size: 18px;
+}
+
+.ik-sb-fifth-content-mobile p:nth-child(1) {
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.ik-sb-fifth-content-mobile span {
+    color: #C3002F;
+    font-weight: 600;
+}
+
+
+/*=================================================SECTION=6==========================================================*/
+
+.ik-sb-sixth-section {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.ik-sb-sixth-section p {
+    color: #231F20;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+
+
+.ik-sb-japan-house {
+    width: 320px;
+
+}
+
+.ik-sb-footer-photos {
+
+}
+
+.ik-sb-footer-logo {
+    display: none;
+}
+
+
+/*==================================================TABLET============================================================*/
+
+
+@media (min-width: 960px) and (max-width: 1229px) {
+
+    .ik-sb-fifth-content-mobile {
+        display: none;
+    }
+
+    .ik-sb-content {
+        height: 550vh;
+    }
+
+    .ik-sb-main-section {
+        min-height: 110vh;
+
+    }
+
+    .ik-sb-main-brush:after {
+        content: "";
+        margin-top: 42px;
+    }
+
+    .ik-sb-third-section {
+        min-height: 110vh !important;
+    }
+
+
+    .ik-sb-logo {
+        margin-top: 50px;
+    }
+
+    .ik-sb-japan-flag-text {
+        color: #C3002F !important;
+        font-weight: 500;
+    }
+
+    .ik-sb-japan-flag-wrapper {
+        margin-top: 10px;
+        color: #58595B;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+    }
+
+    .ik-sb-group-img {
+        width: 400px;
+
+    }
+
+
+    .ik-sb-section {
+        max-width: 680px;
+    }
+
+    .ik-sb-tree1 {
+        display: none;
+    }
+
+    .ik-sb-tree2 {
+        display: none;
+    }
+
+    .ik-sb-tree3 {
+        display: none;
+    }
+
+    .ik-sb-tree4 {
+        display: none;
+    }
+
+
+    .ik-sb-second-section p {
+        margin: 0 30px;
+    }
+
+    .ik-sb-fourth-section {
+        min-height: 120vh;
+
+    }
+
+    .ik-sb-fourth-section p {
+        max-width: 680px;
+        font-size: 20px;
+
+    }
+
+    .ik-sb-pack-2x-img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+
+    .ik-sb-fifth-section {
+        width: 680px;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        position: relative;
+        border-radius: 5px;
+        background-color: #EDEEEF;
+    }
+
+
+    .ik-sb-fifth-section p {
+        color: #231F20;
+        font-size: 24px;
+
+    }
+
+    .ik-sb-fifth-section p span {
+        color: #C3002F;
+        font-weight: 600;
+    }
+
+    .ik-sb-fifth-wrapper {
+        display: flex;
+
+    }
+
+    .ik-sb-fifth-content {
+        display: flex;
+
+    }
+
+    .ik-sb-fifth-text {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .ik-sb-fifth-text p:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .ik-sb-fifth-text p:nth-child(2) {
+        margin-right: 50px;
+        font-size: 20px;
+
+    }
+
+    .ik-sb-quality-note {
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+
+    .ik-sb-fifth-content-mobile {
+        display: none;
+    }
+
+
+    .ik-sb-japan-brush-img {
+        width: 125px;
+        height: 550px;
+        position: absolute;
+        top: 0;
+        left: 520px;
+    }
+
+
+    .ik-sb-fifth-wrapper {
+        display: flex;
+        min-height: 70vh;
+
+    }
+
+    .ik-sb-fifth-content {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .ik-sb-fifth-text {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ik-sb-fifth-text p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .ik-sb-fifth-text p:nth-child(2) {
+
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .ik-sb-quality-note {
+        margin-left: 20px;
+        max-width: 60px;
+    }
+
+
+    .ik-sb-sixth-section p {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+
+    .ik-sb-japan-house {
+        width: 450px;
+        height: 320px;
+    }
+
+
+}
+
+
+/*===================================================DESKTOP==========================================================*/
+
+
+@media (min-width: 1230px) {
+
+    .ik-sb-japan-flag-wrapper {
+        margin-top: 1em;
+        color: #58595B;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .ik-sb-main-section {
+        width: 920px;
+        min-height: 110vh;
+    }
+
+    .ik-sb-content {
+        height: 550vh;
+    }
+
+    .ik-sb-section {
+        max-width: 920px;
+
+    }
+
+    .ik-sb-logo {
+        margin-top: 50px;
+    }
+
+    .ik-sb-main-circle {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .ik-sb-main-brush {
+        width: 500px;
+        height: 89px;
+
+    }
+
+    .ik-sb-main-brush-img {
+        position: absolute;
+        top: -219px;
+        width: 70px;
+        height: 308px;
+    }
+
+    .ik-sb-main-head-img {
+        position: relative;
+        top: 38px;
+        width: 230px;
+
+    }
+
+    .ik-sb-main-text p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .ik-sb-third-text {
+        display: none;
+    }
+
+    .ik-sb-third-section {
+        width: 920px;
+        min-height: 60vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #ffffff;
+    }
+
+    .ik-sb-main-brush:after {
+        content: "";
+        width: 300px;
+        height: 1px;
+        margin-top: 89px;
+        position: absolute;
+        top: 0;
+    }
+
+    .ik-sb-banner {
+        border-radius: 5px;
+        width: 530px;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #EDEEEF;
+        position: relative;
+    }
+
+
+    .ik-sb-desktop-module {
+        width: 390px;
+        height: 75vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .ik-sb-desktop-module p {
+        color: #58595B;
+
+    }
+
+    .ik-sb-desktop-module p:nth-child(1) {
+        font-size: 34px !important;
+        font-weight: 700 !important;
+    }
+
+    .ik-sb-desktop-module p:nth-child(2) {
+        font-size: 28px !important;
+        font-weight: 700;
+        margin-top: 220px;
+        z-index: 10;
+    }
+
+    .ik-sb-desktop-module ul li {
+        font-size: 28px !important;
+        font-weight: 400;
+        color: #757679;
+    }
+
+    .ik-sb-third-ul-title {
+        color: #404040 !important;
+        margin-top: 50px;
+        font-weight: 400;
+    }
+
+    .ik-sb-desktop-module ul {
+        margin: 0 0 370px 0;
+        z-index: 10;
+        list-style: disc;
+    }
+
+
+
+    .ik-sb-fourth-section {
+        height: 80vh!important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .ik-sb-pack-2x-img {
+        width: 190px;
+        height: 700px;
+    }
+
+    .ik-sb-promo-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+
+    .ik-sb-fourth-section p:nth-child(1) {
+        position: absolute;
+        top: 0;
+        padding: 0;
+    }
+
+    .ik-sb-promo-text-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .ik-sb-fourth-section p {
+        max-width: 920px;
+    }
+
+    .ik-sb-promo-text-wrapper p {
+        margin-top: 300px;
+        font-size: 24px;
+        color: #58595B;
+    }
+
+    .ik-sb-2x {
+        display: block;
+        color: #333 !important;
+        font-size: 530px !important;
+        font-weight: 800;
+        opacity: 0.5;
+        margin-top: 800px !important;
+        margin-right: 150px !important;
+    }
+
+    /*=================================================SECTION=5==========================================================*/
+    .ik-sb-fifth-section {
+        width: 920px;
+        min-height: 591px;
+        margin-top: 18em;
+
+    }
+
+
+
+    .ik-sb-fifth-section p {
+        color: #231F20;
+        font-size: 24px;
+
+    }
+
+    .ik-sb-fifth-section p span {
+        color: #C3002F;
+        font-weight: 600;
+    }
+
+    .ik-sb-japan-brush-img {
+        width: 134px;
+        height: 591px;
+        position: absolute;
+        top: 0;
+        left: 700px;
+    }
+
+    .ik-sb-fifth-wrapper {
+        display: flex;
+        height: 60vh;
+
+    }
+
+    .ik-sb-fifth-content {
+        display: flex;
+    }
+
+    .ik-sb-fifth-text {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 200px 0 0;
+    }
+
+    .ik-sb-fifth-text p:nth-child(1) {
+        font-size: 34px;
+    }
+
+    .ik-sb-fifth-text p:nth-child(2) {
+        width: 550px;
+        margin-right: 50px;
+        font-size: 20px;
+
+    }
+
+    .ik-sb-quality-note {
+        margin-right: 70px;
+        margin-left: 20px;
+    }
+
+    .ik-sb-fifth-content-mobile {
+        display: none;
+    }
+
+    /*=================================================SECTION=6==========================================================*/
+    .ik-sb-sixth-section {
+        min-height: 46vh;
+        max-width: 920px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+    }
+
+    .ik-sb-sixth-section p {
+        color: #231F20;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 100px;
+        letter-spacing: 2px;
+    }
+
+
+    .ik-sb-japan-house {
+        width: 450px;
+        height: 320px;
+        z-index: 10;
+    }
+
+    .ik-sb-footer-photos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ik-sb-footer-logo {
+        display: block;
+        width: 125px;
+        height: 56px;
+        position: absolute;
+        top: 0;
+        left: 85%;
+        margin-top: 400px;
+    }
+
+
+    .ik-sb-tree1 {
+        transform: rotate(270deg);
+        width: 300px;
+        height: 173px;
+        display: block;
+        position: absolute;
+        top: 115%;
+        left: 60%;
+    }
+
+    .ik-sb-tree2 {
+        transform: rotate(310deg);
+        width: 330px;
+        height: 190px;
+        display: block;
+        position: absolute;
+        top: 87%;
+        left: 0;
+    }
+
+    .ik-sb-tree3 {
+        transform: rotate(60deg);
+        width: 350px;
+        height: 202px;
+        display: block;
+        position: absolute;
+        top: -20%;
+        left: 20%;
+    }
+
+    .ik-sb-tree4 {
+        transform: rotate(270deg);
+        width: 300px;
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: -5%;
+    }
+
+    .ik-sb-japan-flag-text {
+        color: #C3002F !important;
+        font-weight: 600;
+    }
+
+}
+
+
+
