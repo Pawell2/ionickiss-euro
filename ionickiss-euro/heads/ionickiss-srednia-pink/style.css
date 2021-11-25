@@ -169,7 +169,6 @@
     flex-direction: column;
     position: relative;
     border-radius: 5px;
-    z-index: 10;
 }
 
 .ik-sp-second-section p {
@@ -285,21 +284,6 @@
     justify-content: center;
 }
 
-.ik-sp-tree1 {
-    display: none;
-}
-
-.ik-sp-tree2 {
-    display: none;
-}
-
-.ik-sp-tree3 {
-    display: none;
-}
-
-.ik-sp-tree4 {
-    display: none;
-}
 
 /*=================================================SECTION=4==========================================================*/
 
@@ -478,21 +462,6 @@
         max-width: 680px;
     }
 
-    .ik-sp-tree1 {
-        display: none;
-    }
-
-    .ik-sp-tree2 {
-        display: none;
-    }
-
-    .ik-sp-tree3 {
-        display: none;
-    }
-
-    .ik-sp-tree4 {
-        display: none;
-    }
 
 
     .ik-sp-second-section p {
@@ -759,7 +728,6 @@
         font-size: 28px !important;
         font-weight: 700;
         margin-top: 220px;
-        z-index: 10;
     }
 
     .ik-sp-desktop-module ul li {
@@ -776,7 +744,6 @@
 
     .ik-sp-desktop-module ul {
         margin: 0 0 370px 0;
-        z-index: 10;
         list-style: disc;
     }
 
@@ -921,7 +888,6 @@
     .ik-sp-japan-house {
         width: 450px;
         height: 320px;
-        z-index: 10;
     }
 
     .ik-sp-footer-photos {
@@ -940,45 +906,6 @@
         margin-top: 400px;
     }
 
-
-    .ik-sp-tree1 {
-        transform: rotate(270deg);
-        width: 300px;
-        height: 173px;
-        display: block;
-        position: absolute;
-        top: 115%;
-        left: 60%;
-    }
-
-    .ik-sp-tree2 {
-        transform: rotate(310deg);
-        width: 330px;
-        height: 190px;
-        display: block;
-        position: absolute;
-        top: 87%;
-        left: 0;
-    }
-
-    .ik-sp-tree3 {
-        transform: rotate(60deg);
-        width: 350px;
-        height: 202px;
-        display: block;
-        position: absolute;
-        top: -20%;
-        left: 20%;
-    }
-
-    .ik-sp-tree4 {
-        transform: rotate(270deg);
-        width: 300px;
-        display: block;
-        position: absolute;
-        top: 45%;
-        left: -5%;
-    }
 
     .ik-sp-japan-flag-text {
         color: #C3002F !important;

@@ -169,7 +169,6 @@
     flex-direction: column;
     position: relative;
     border-radius: 5px;
-    z-index: 10;
 }
 
 .ik-mp-second-section p {
@@ -285,21 +284,6 @@
     justify-content: center;
 }
 
-.ik-mp-tree1 {
-    display: none;
-}
-
-.ik-mp-tree2 {
-    display: none;
-}
-
-.ik-mp-tree3 {
-    display: none;
-}
-
-.ik-mp-tree4 {
-    display: none;
-}
 
 /*=================================================SECTION=4==========================================================*/
 
@@ -476,22 +460,6 @@
 
     .ik-mp-section {
         max-width: 680px;
-    }
-
-    .ik-mp-tree1 {
-        display: none;
-    }
-
-    .ik-mp-tree2 {
-        display: none;
-    }
-
-    .ik-mp-tree3 {
-        display: none;
-    }
-
-    .ik-mp-tree4 {
-        display: none;
     }
 
 
@@ -759,7 +727,6 @@
         font-size: 28px !important;
         font-weight: 700;
         margin-top: 220px;
-        z-index: 10;
     }
 
     .ik-mp-desktop-module ul li {
@@ -776,7 +743,6 @@
 
     .ik-mp-desktop-module ul {
         margin: 0 0 370px 0;
-        z-index: 10;
         list-style: disc;
     }
 
@@ -921,7 +887,6 @@
     .ik-mp-japan-house {
         width: 450px;
         height: 320px;
-        z-index: 10;
     }
 
     .ik-mp-footer-photos {
@@ -938,46 +903,6 @@
         top: 0;
         left: 85%;
         margin-top: 400px;
-    }
-
-
-    .ik-mp-tree1 {
-        transform: rotate(270deg);
-        width: 300px;
-        height: 173px;
-        display: block;
-        position: absolute;
-        top: 115%;
-        left: 60%;
-    }
-
-    .ik-mp-tree2 {
-        transform: rotate(310deg);
-        width: 330px;
-        height: 190px;
-        display: block;
-        position: absolute;
-        top: 87%;
-        left: 0;
-    }
-
-    .ik-mp-tree3 {
-        transform: rotate(60deg);
-        width: 350px;
-        height: 202px;
-        display: block;
-        position: absolute;
-        top: -20%;
-        left: 20%;
-    }
-
-    .ik-mp-tree4 {
-        transform: rotate(270deg);
-        width: 300px;
-        display: block;
-        position: absolute;
-        top: 45%;
-        left: -5%;
     }
 
     .ik-mp-japan-flag-text {
