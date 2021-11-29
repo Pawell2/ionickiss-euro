@@ -82,6 +82,7 @@
     width: 200px;
     height: 420px;
     position: sticky;
+    position: -webkit-sticky;
     top: 100px;
     display: flex;
     justify-content: center;
@@ -92,7 +93,7 @@
 .ik-mp-main-head-img {
     position: relative;
     top: 65px;
-    width: 80%;
+    width: 80% !important;
 }
 
 
@@ -116,7 +117,7 @@
 .ik-mp-main-brush-img {
     position: absolute;
     top: -179px;
-    width: 50px;
+    width: 50px !important;
     height: 220px;
 }
 
@@ -129,6 +130,7 @@
     font-size: 40px;
     font-weight: 700;
     color: #231F20;
+    margin: 40px 0;
 }
 
 .ik-mp-main-text p:nth-child(2) {
@@ -169,6 +171,7 @@
     flex-direction: column;
     position: relative;
     border-radius: 5px;
+
 }
 
 .ik-mp-second-section p {
@@ -207,8 +210,8 @@
 }
 
 .ik-mp-lay-brush {
-    margin-bottom: 100px;
-    width: 90%;
+    margin-bottom: 100px !important;
+    width: 90% !important;
 }
 
 /*=================================================SECTION=3==========================================================*/
@@ -273,7 +276,7 @@
 
 
 .ik-mp-group-img {
-    width: 70%;
+    width: 70% !important;
     margin-bottom: 40px;
 }
 
@@ -302,7 +305,7 @@
 }
 
 .ik-mp-pack-2x-img {
-    width: clamp(5.625em, 25vw, 7em);
+    width: clamp(5.625em, 25vw, 7em) !important;
     margin-top: 20px;
 }
 
@@ -453,7 +456,7 @@
     }
 
     .ik-mp-group-img {
-        width: 400px;
+        width: 400px !important;
 
     }
 
@@ -479,7 +482,8 @@
     }
 
     .ik-mp-pack-2x-img {
-        width: 150px;
+        width: 150px !important;
+        height: 552px;
         margin-bottom: 10px;
     }
 
@@ -547,7 +551,7 @@
 
 
     .ik-mp-japan-brush-img {
-        width: 125px;
+        width: 125px !important;
         height: 550px;
         position: absolute;
         top: 0;
@@ -652,14 +656,14 @@
     .ik-mp-main-brush-img {
         position: absolute;
         top: -219px;
-        width: 70px;
+        width: 70px !important;
         height: 308px;
     }
 
     .ik-mp-main-head-img {
         position: relative;
         top: 38px;
-        width: 230px;
+        width: 230px !important;
 
     }
 
@@ -727,6 +731,7 @@
         font-size: 28px !important;
         font-weight: 700;
         margin-top: 220px;
+
     }
 
     .ik-mp-desktop-module ul li {
@@ -743,6 +748,7 @@
 
     .ik-mp-desktop-module ul {
         margin: 0 0 370px 0;
+
         list-style: disc;
     }
 
@@ -756,7 +762,7 @@
     }
 
     .ik-mp-pack-2x-img {
-        width: 190px;
+        width: 190px !important;
         height: 700px;
     }
 
@@ -822,7 +828,7 @@
     }
 
     .ik-mp-japan-brush-img {
-        width: 134px;
+        width: 134px !important;
         height: 591px;
         position: absolute;
         top: 0;
@@ -847,6 +853,7 @@
 
     .ik-mp-fifth-text p:nth-child(1) {
         font-size: 34px;
+        margin: 36px 0;
     }
 
     .ik-mp-fifth-text p:nth-child(2) {
@@ -887,6 +894,7 @@
     .ik-mp-japan-house {
         width: 450px;
         height: 320px;
+
     }
 
     .ik-mp-footer-photos {
@@ -904,6 +912,7 @@
         left: 85%;
         margin-top: 400px;
     }
+
 
     .ik-mp-japan-flag-text {
         color: #C3002F !important;

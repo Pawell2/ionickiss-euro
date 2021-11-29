@@ -82,6 +82,7 @@
     width: 200px;
     height: 420px;
     position: sticky;
+    position: -webkit-sticky;
     top: 100px;
     display: flex;
     justify-content: center;
@@ -92,7 +93,7 @@
 .ik-tw-main-head-img {
     position: relative;
     top: 65px;
-    width: 80%;
+    width: 80% !important;
 }
 
 
@@ -116,7 +117,7 @@
 .ik-tw-main-brush-img {
     position: absolute;
     top: -179px;
-    width: 50px;
+    width: 50px !important;
     height: 220px;
 }
 
@@ -129,6 +130,7 @@
     font-size: 40px;
     font-weight: 700;
     color: #231F20;
+    margin: 40px 0;
 }
 
 .ik-tw-main-text p:nth-child(2) {
@@ -208,8 +210,8 @@
 }
 
 .ik-tw-lay-brush {
-    margin-bottom: 100px;
-    width: 90%;
+    margin-bottom: 100px !important;
+    width: 90% !important;
 }
 
 /*=================================================SECTION=3==========================================================*/
@@ -274,7 +276,7 @@
 
 
 .ik-tw-group-img {
-    width: 70%;
+    width: 70% !important;
     margin-bottom: 40px;
 }
 
@@ -284,6 +286,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 /*=================================================SECTION=4==========================================================*/
 
@@ -302,7 +305,7 @@
 }
 
 .ik-tw-pack-2x-img {
-    width: clamp(5.625em, 25vw, 7em);
+    width: clamp(5.625em, 25vw, 7em) !important;
     margin-top: 20px;
 }
 
@@ -453,7 +456,7 @@
     }
 
     .ik-tw-group-img {
-        width: 400px;
+        width: 400px !important;
 
     }
 
@@ -461,6 +464,7 @@
     .ik-tw-section {
         max-width: 680px;
     }
+
 
     .ik-tw-second-section p {
         margin: 0 30px;
@@ -478,7 +482,8 @@
     }
 
     .ik-tw-pack-2x-img {
-        width: 150px;
+        width: 150px !important;
+        height: 552px;
         margin-bottom: 10px;
     }
 
@@ -546,7 +551,7 @@
 
 
     .ik-tw-japan-brush-img {
-        width: 125px;
+        width: 125px !important;
         height: 550px;
         position: absolute;
         top: 0;
@@ -651,14 +656,14 @@
     .ik-tw-main-brush-img {
         position: absolute;
         top: -219px;
-        width: 70px;
+        width: 70px !important;
         height: 308px;
     }
 
     .ik-tw-main-head-img {
         position: relative;
         top: 38px;
-        width: 230px;
+        width: 230px !important;
 
     }
 
@@ -757,7 +762,7 @@
     }
 
     .ik-tw-pack-2x-img {
-        width: 190px;
+        width: 190px !important;
         height: 700px;
     }
 
@@ -823,7 +828,7 @@
     }
 
     .ik-tw-japan-brush-img {
-        width: 134px;
+        width: 134px !important;
         height: 591px;
         position: absolute;
         top: 0;
@@ -848,6 +853,7 @@
 
     .ik-tw-fifth-text p:nth-child(1) {
         font-size: 34px;
+        margin: 36px 0;
     }
 
     .ik-tw-fifth-text p:nth-child(2) {
